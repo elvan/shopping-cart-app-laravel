@@ -10,7 +10,6 @@ class CartController extends Controller
 {
     public function cart()
     {
-        dd(session('cartItems'));
         return view('cart.cart');
     }
 
